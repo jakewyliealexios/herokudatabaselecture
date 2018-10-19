@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 
 //Node Module that will connect to postgresql
 const pg = require('pg');
+const url = require('url');
 
 //setup PG to connect to the database
 const Pool = pg.Pool;
